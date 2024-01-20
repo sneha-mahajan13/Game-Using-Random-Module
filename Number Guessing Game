@@ -1,0 +1,15 @@
+#random number 
+import random
+cnumber=random.randrange(1,101)
+userInput=int(input("enter number --"))
+if userInput>cnumber:
+    print("Computer number :",cnumber)
+    print("your guess number is high ")
+elif cnumber<userInput:
+    print("computer number :",cnumber)
+    print("your guess number is low ")
+else:
+    print("computer number :",cnumber)
+    print("your guess number is equal")    
+
+ 
